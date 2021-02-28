@@ -18,7 +18,7 @@ export default function LoadingScreen({ navigation }) {
 
     return (
         <View style={styles.container}>
-            <ActivityIndicator size="large"/>
+            <ActivityIndicator color="#2196f3" size="large"/>
         </View>
     )
 }
@@ -28,6 +28,6 @@ const styles = StyleSheet.create({
         flex:1,
         justifyContent:'center',
         alignItems:'center',
-        backgroundColor:'#E8EAED'
+        backgroundColor:'#F5F5F5',
     }
 })

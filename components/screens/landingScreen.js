@@ -21,7 +21,7 @@ export default LandingScreen
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#E8EAED',
+        backgroundColor:'#F5F5F5',
         alignItems:'center',
         justifyContent:'center'
     },

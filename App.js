@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import LoginScreen from "./components/pages/loginScreen";
-import RegisterScreen from "./components/pages/registerScreen";
-import LandingScreen from "./components/pages/landingScreen";
-import LoadingScreen from "./components/pages/loadingScreen";
-import HomePage from "./components/pages/homePage";
-import { Colors } from "react-native-paper";
+import LoginScreen from "./components/screens/loginScreen";
+import RegisterScreen from "./components/screens/registerScreen";
+import LandingScreen from "./components/screens/landingScreen";
+import LoadingScreen from "./components/screens/loadingScreen";
+import HomePage from "./components/screens/homePage";
 
 
 const Stack = createStackNavigator();

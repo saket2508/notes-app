@@ -51,7 +51,7 @@ export default function RegisterScreen({ navigation }) {
                <View style={{marginBottom:20}}>
                 <TextInput
                     theme={{colors:{primary: Colors.blue500}}}
-                    mode="outlined"
+                    mode="flat"
                     label="Username"
                     onChangeText = {text => setDisplayName(text)}
                     placeholder="Your username"/>
@@ -60,7 +60,7 @@ export default function RegisterScreen({ navigation }) {
                <View style={{marginBottom:20}}>
                 <TextInput
                     theme={{colors:{primary: Colors.blue500}}}
-                    mode="outlined"
+                    mode="flat"
                     label="Email"
                     onChangeText = {text => setEmail(text)}
                     placeholder="Email"/>
@@ -69,7 +69,7 @@ export default function RegisterScreen({ navigation }) {
                <View style={{marginBottom:20}}>
                 <TextInput
                     theme={{colors:{primary: Colors.blue500}}}
-                    mode="outlined"
+                    mode="flat"
                     secureTextEntry={true}
                     label="Password"
                     onChangeText = {text => setPassword(text)}
@@ -106,7 +106,7 @@ export default function RegisterScreen({ navigation }) {
                     : <Button
                     contentStyle = {{flexDirection:'row-reverse'}}
                     color={Colors.red500}
-                    mode="contained"
+                    mode="flat"
                     icon={({ size, color }) => (
                         <AntDesign name="google" size={20} color="white" />
                       )}
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
         flex:1,
         justifyContent:'center',
         alignItems:'center',
-        backgroundColor:'#E8EAED'
+        backgroundColor:'#F5F5F5',
     },
     heading:{
         marginTop:10,

@@ -39,7 +39,7 @@ export default function LoginScreen({ navigation }) {
                <View style={{marginBottom:10}}>
                 <TextInput
                     theme={{colors:{primary: Colors.blue500}}}
-                    mode="outlined"
+                    mode="flat"
                     label="Email"
                     onChangeText = {text => setEmail(text)}
                     placeholder="Email"/>
@@ -48,7 +48,7 @@ export default function LoginScreen({ navigation }) {
                <View style={{marginBottom:20}}>
                 <TextInput
                     theme={{colors:{primary: Colors.blue500}}}
-                    mode="outlined"
+                    mode="flat"
                     secureTextEntry={true}
                     label="Password"
                     onChangeText = {text => setPassword(text)}
@@ -99,13 +99,9 @@ export default function LoginScreen({ navigation }) {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#E8EAED',
+        backgroundColor:'#F5F5F5',
         justifyContent:'center',
         alignItems:'center',
-    },
-    heading:{
-        fontSize:24,
-        color:'black'
     },
     loginMenu:{
         marginTop:40,
